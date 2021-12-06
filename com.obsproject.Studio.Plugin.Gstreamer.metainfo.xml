@@ -6,6 +6,7 @@
   <summary>GStreamer OBS Studio plugin</summary>
   <url type="homepage">https://github.com/fzwoch/obs-gstreamer</url>
   <releases>
+    <release date="2021-12-06" version="0.3.3"/>
     <release date="2021-07-15" version="0.3.2"/>
   </releases>
   <metadata_license>CC0-1.0</metadata_license>
