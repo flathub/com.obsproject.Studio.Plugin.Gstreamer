@@ -2,7 +2,7 @@
 <component type="addon">
   <id>com.obsproject.Studio.Plugin.Gstreamer</id>
   <extends>com.obsproject.Studio</extends>
-  <name>Gstreamer Plugin</name>
+  <name>GStreamer Plugin</name>
   <summary>GStreamer OBS Studio plugin</summary>
   <url type="homepage">https://github.com/fzwoch/obs-gstreamer</url>
   <releases>
