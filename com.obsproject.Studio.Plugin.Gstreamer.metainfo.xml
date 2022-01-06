@@ -3,7 +3,7 @@
   <id>com.obsproject.Studio.Plugin.Gstreamer</id>
   <extends>com.obsproject.Studio</extends>
   <name>GStreamer Plugin</name>
-  <summary>GStreamer OBS Studio plugin</summary>
+  <summary>Encode streams and recordings using GStreamer</summary>
   <url type="homepage">https://github.com/fzwoch/obs-gstreamer</url>
   <releases>
     <release date="2021-12-06" version="0.3.3"/>
