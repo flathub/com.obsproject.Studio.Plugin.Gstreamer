@@ -15,12 +15,13 @@ modules:
       - --buildtype=release
     post-install:
       - install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo ../${FLATPAK_ID}.metainfo.xml
-      - appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}
+      - appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak
+        ${FLATPAK_ID}
     sources:
       - type: git
         url: https://github.com/fzwoch/obs-gstreamer.git
-        tag: v0.3.3
-        commit: 219a62963f206ef521eb1b12dddd5b971348128b
+        tag: v0.3.4
+        commit: b6b70cbf9813b447ffbcb7cfe23b44e4f6256fcb
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)
