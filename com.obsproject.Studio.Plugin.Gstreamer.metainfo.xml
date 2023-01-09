@@ -6,6 +6,7 @@
   <summary>Encode streams and recordings using GStreamer</summary>
   <url type="homepage">https://github.com/fzwoch/obs-gstreamer</url>
   <releases>
+    <release version="0.4.0" date="2023-01-09"/>
     <release version="0.3.5" date="2022-08-17"/>
     <release version="0.3.4" date="2022-07-22"/>
     <release date="2021-12-06" version="0.3.3"/>
