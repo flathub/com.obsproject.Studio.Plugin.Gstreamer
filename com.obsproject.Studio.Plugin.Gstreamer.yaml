@@ -25,5 +25,7 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)
+      - type: patch
+        path: meson.patch
       - type: file
         path: com.obsproject.Studio.Plugin.Gstreamer.metainfo.xml
