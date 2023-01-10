@@ -8,6 +8,7 @@ separate-locales: false
 appstream-compose: false
 build-options:
   prefix: /app/plugins/Gstreamer
+  libdir: lib/obs-plugins
 modules:
   - name: gstreamer
     buildsystem: meson
@@ -25,7 +26,5 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)
-      - type: patch
-        path: meson.patch
       - type: file
         path: com.obsproject.Studio.Plugin.Gstreamer.metainfo.xml
