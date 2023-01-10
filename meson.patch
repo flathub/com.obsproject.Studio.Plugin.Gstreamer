@@ -1,0 +1,22 @@
+--- b/meson.build
++++ a/meson.build
+@@ -18,12 +18,7 @@
+ # along with obs-gstreamer. If not, see <http://www.gnu.org/licenses/>.
+ #
+ 
++project('obs-gstreamer', 'c')
+-project('obs-gstreamer', 'c',
+-  default_options : [
+-    'prefix=~/.config/obs-studio/plugins/obs-gstreamer/bin/64bit',
+-    'libdir='
+-  ],
+-)
+ 
+ obs_dep = dependency('libobs', required : false)
+ if not obs_dep.found()
+@@ -56,4 +51,5 @@
+     dependency('gstreamer-app-1.0'),
+   ],
+   install : true,
++  install_dir : join_paths(get_option('libdir'), 'obs-plugins'),
+ )
