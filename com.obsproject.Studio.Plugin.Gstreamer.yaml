@@ -2,7 +2,7 @@ id: com.obsproject.Studio.Plugin.Gstreamer
 branch: stable
 runtime: com.obsproject.Studio
 runtime-version: stable
-sdk: org.kde.Sdk//6.3
+sdk: org.kde.Sdk//6.4
 build-extension: true
 separate-locales: false
 appstream-compose: false
