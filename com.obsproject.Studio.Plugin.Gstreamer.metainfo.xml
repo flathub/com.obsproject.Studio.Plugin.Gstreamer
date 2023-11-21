@@ -2,7 +2,7 @@
 <component type="addon">
   <id>com.obsproject.Studio.Plugin.Gstreamer</id>
   <extends>com.obsproject.Studio</extends>
-  <name>GStreamer Plugin</name>
+  <name>GStreamer</name>
   <summary>Encode streams and recordings using GStreamer</summary>
   <url type="homepage">https://github.com/fzwoch/obs-gstreamer</url>
   <releases>
