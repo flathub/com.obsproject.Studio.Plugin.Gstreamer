@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/fzwoch/obs-gstreamer.git
-        tag: v0.4.0
-        commit: 7dd3e6916edff4b2ebdc652af64dc8d1d7b41aa2
+        tag: v0.4.1
+        commit: b60942f8cd9d788c95ef7dee256f52e14bdf023e
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)
